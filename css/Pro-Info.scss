@@ -25,6 +25,8 @@ a{
 }
 //顶部注册等
 #topbar{   
+    margin: 0 auto;
+    width: 1240px;
     height: 30px;
     line-height: 30px;
     background: #f6f6f6;
@@ -137,7 +139,8 @@ a{
 
 //导航与轮播图
 #header{
-    width: 100%;
+    width: 1240px;
+    margin: 0 auto;
     height: 125px;  
     padding: 0 40px;
     background: #FFFFFF;
@@ -145,6 +148,7 @@ a{
 }    
 #area{
     width: 1200px;
+    margin: 0 auto;
     height: 85px;   
     position:relative;    
     .logo-area{
@@ -205,7 +209,8 @@ a{
 } 
 //横向分类导航
 #mainnav{
-    width: 100%;
+    width: 1240px;
+    margin: 0 auto;
     height: 40px;  
     position: relative;  
     .nav{
@@ -275,7 +280,7 @@ a{
 }
 //产品部分
 #cp{
-    width: 1200px;
+    width: 1240px;
     margin: 0 auto;  
     display: block;
     .top{
@@ -631,10 +636,10 @@ a{
 
 //底部选项
 #footer{
-    width: 1300px;
+    width: 1240px;
     overflow: hidden;   
     height: auto;
-    margin-top: 50px;
+    margin: 50px auto 0; 
     border-top: #ff464e solid 4px;    
     .footer-top{  
         width: 1100px;

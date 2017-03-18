@@ -2,7 +2,7 @@
 $(function(){	
 	
 	//登录与数据库连接验证用户名
-	$("#denglu").click(function(){		
+	$("#denglu").click(function(){					
 		$.get("checkUser.php",{"telphone":$("#telphone").val()},
 			function(data){
 				if($("#telphone").val()==""){
@@ -24,11 +24,27 @@ $(function(){
 								}			
 							}			
 						});
+				//利用cookie保存用户手机号码和密码
+												
 					}else{
-					$("#telTip").html("亲,该用户名不存在");
+						$("#telTip").html("亲,该用户名不存在");
 					}			
 				}														
 			});
 	});
-	
+	//直接显示cookie已保存的telphone和userpass
+	$(function(){
+		$("#check").click(function(){
+			if(this.checked){
+				saveCookie("telphone",$("#telphone").val(),7);
+				saveCookie("userPass",$("#userPass").val(),7);
+			}else{
+				deleteCookie("telphone");
+				deleteCookie("userPass");
+			}
+		});				
+		$("#telphone").val(getCookie("telphone"));
+		$("#userPass").val(getCookie("userPass"));
+		
+	});
 });

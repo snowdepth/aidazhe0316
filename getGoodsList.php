@@ -9,7 +9,7 @@
 	mysql_select_db("shoppingcenter",$conn);
 	
 	//3）、传输数据（过桥）
-	$sqlstr = "select * from goodsInfo";
+	$sqlstr = "select * from goodsinfo";
 	$result = mysql_query($sqlstr,$conn);//执行查询的sql语句后，有返回值，返回的是查询结果
 			
 	//查询列数

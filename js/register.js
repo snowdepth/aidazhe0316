@@ -50,10 +50,7 @@ $(function(){
 					$("#telTip").html("亲,用户名不能为空");					
 				}else{
 					if(data.indexOf("1")>-1){
-						$("#telTip").html("亲,该用户名已被注册");
-						$("#join").click(function(){
-							alert("亲,又调皮了!")
-						});
+							$("#telTip").html("亲,该用户名已被注册");
 					//验证此用户的密码是否正确					
 					}else{
 					$("#telTip").html("亲,该用户名可用");

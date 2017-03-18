@@ -25,9 +25,11 @@ a{
 }
 //顶部注册等
 #topbar{   
+    width: 1240px;
     height: 30px;
     line-height: 30px;
     background: #f6f6f6;
+    margin: 0 auto;
     a{
         line-height: 30px;
         font-size: 13px;
@@ -137,6 +139,7 @@ a{
 
 //导航与轮播图
 #header{
+    margin: 0 auto;
     width: 1240px;
     height: 125px;  
     padding: 0 20px;
@@ -144,10 +147,11 @@ a{
      border-bottom: 2px solid #DF5000;
 }    
 #area{
-    width: 1200px;
+    margin: 0 auto;
+    width: 1240px;
     height: 85px;   
     position:relative;
-    left: 20px;
+    
    
     .logo-area{
         width: 210px;
@@ -207,6 +211,7 @@ a{
 }    
 //横向导航
 #mainnav{
+    
     width: 1240px;
     height: 40px;  
     position: relative;  
@@ -295,10 +300,12 @@ a{
 }
 
 #banner{
-    width: 100%;
+    width: 1240px;
     height: 380px;
+    margin: 0 auto;
     background: #f6f6f6;
-    padding: 0 0 0 40px;   
+    position: relative;
+    left: 20px;
     //左侧购物导航 
     .banner-left{
         float: left;       
@@ -416,10 +423,12 @@ a{
 }
 //今日品牌
 #brand{
+    margin: 0 auto;
     width: 1180px;
-    margin: 30px 40px;
+    padding: 30px 40px;
     height: 24px;
     color: #000000;
+    
     .brand-left{
         float: left;      
         span{
@@ -455,8 +464,9 @@ a{
 #brand-list{
     width: 1180px;
     height: auto;
-    margin: 20px 40px 0; 
-    padding-top: 20px; 
+    margin: 0 auto;
+    padding: 20px 40px 0; 
+    
     overflow: hidden;
     background: #FFFFFF;
     .brand-data{        
@@ -555,6 +565,7 @@ a{
 }
 //今日新品
 #new{
+    margin: 0 auto;
     width: 1180px;
     padding: 30px 40px 0px;
     height: 24px;
@@ -577,6 +588,7 @@ a{
 }
 //产品
 #pro{
+    margin: 0 auto;
     min-height: 500px;
     width: 1240px;
     padding: 30px 40px;

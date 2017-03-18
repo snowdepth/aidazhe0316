@@ -23,6 +23,8 @@ a {
   color: #333; }
 
 #topbar {
+  margin: 0 auto;
+  width: 1240px;
   height: 30px;
   line-height: 30px;
   background: #f6f6f6; }
@@ -112,7 +114,8 @@ a {
     width: 64px; }
 
 #header {
-  width: 100%;
+  width: 1240px;
+  margin: 0 auto;
   height: 125px;
   padding: 0 40px;
   background: #FFFFFF;
@@ -120,6 +123,7 @@ a {
 
 #area {
   width: 1200px;
+  margin: 0 auto;
   height: 85px;
   position: relative; }
   #area .logo-area {
@@ -170,7 +174,8 @@ a {
       background-position: left top; }
 
 #mainnav {
-  width: 100%;
+  width: 1240px;
+  margin: 0 auto;
   height: 40px;
   position: relative; }
   #mainnav .nav {
@@ -225,7 +230,7 @@ a {
         background: #f9f9f9; }
 
 #cp {
-  width: 1200px;
+  width: 1240px;
   margin: 0 auto;
   display: block; }
   #cp .top {
@@ -492,10 +497,10 @@ a {
         right: 10px; }
 
 #footer {
-  width: 1300px;
+  width: 1240px;
   overflow: hidden;
   height: auto;
-  margin-top: 50px;
+  margin: 50px auto 0;
   border-top: #ff464e solid 4px; }
   #footer .footer-top {
     width: 1100px;

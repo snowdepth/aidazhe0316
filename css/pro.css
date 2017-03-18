@@ -12,7 +12,8 @@ body {
   background: #f6f6f6;
   color: #666;
   font-family: "宋体";
-  font-size: 12px; }
+  font-size: 12px;
+  margin: 0 auto; }
 
 ul, li {
   list-style: none; }
@@ -23,6 +24,8 @@ a {
   color: #333; }
 
 #topbar {
+  width: 1240px;
+  margin: 0 auto;
   height: 30px;
   line-height: 30px;
   background: #f6f6f6; }
@@ -114,6 +117,7 @@ a {
 #header {
   width: 1240px;
   height: 125px;
+  margin: 0 auto;
   padding: 0 20px;
   background: #FFFFFF;
   border-bottom: 2px solid #DF5000; }
@@ -122,7 +126,8 @@ a {
   width: 1200px;
   height: 85px;
   position: relative;
-  left: 20px; }
+  left: 20px;
+  margin: 0 auto; }
   #area .logo-area {
     width: 210px;
     height: 52px;
@@ -173,6 +178,7 @@ a {
 #mainnav {
   width: 1240px;
   height: 40px;
+  margin: 0 auto;
   position: relative; }
   #mainnav .nav {
     position: absolute;
@@ -240,15 +246,19 @@ a {
         background: #f9f9f9; }
 
 #proBanner {
-  margin: 0 auto; }
+  margin: 0 auto;
+  zoom: 1;
+  width: 1240px;
+  height: 200px; }
   #proBanner img {
-    width: 1300px;
+    width: 1240px;
     height: 200px; }
 
 #pro {
   min-height: 300px;
   width: 1240px;
   padding: 30px 40px;
+  margin: 0 auto;
   position: relative; }
   #pro .good-buy {
     position: relative;
@@ -341,15 +351,14 @@ a {
 #footer {
   overflow: hidden;
   display: block;
-  width: 100%;
+  width: 1240px;
   height: auto;
-  margin-top: 50px;
+  margin: 50px auto 0;
   border-top: #ff464e solid 4px; }
   #footer .footer-top {
     width: 1100px;
     height: 146px;
-    padding-top: 25px;
-    margin: 0 auto; }
+    padding-top: 25px; }
     #footer .footer-top div {
       width: 90px;
       height: 136px;

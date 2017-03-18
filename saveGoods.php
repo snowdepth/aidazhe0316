@@ -21,6 +21,14 @@
 	$beiyong11 = $_REQUEST['beiyong11'];
 	$beiyong12 = $_REQUEST['beiyong12'];
 	$beiyong13 = $_REQUEST['beiyong13'];
+	$beiyong14 = $_REQUEST['beiyong14'];
+	$beiyong15 = $_REQUEST['beiyong15'];
+	$beiyong16 = $_REQUEST['beiyong16'];
+	$beiyong17 = $_REQUEST['beiyong17'];
+	$beiyong18 = $_REQUEST['beiyong18'];
+	$beiyong19 = $_REQUEST['beiyong19'];
+	$beiyong20 = $_REQUEST['beiyong20'];
+	
 	
 	//2、数据保存在数据库中
 	//1）、建立连接（搭桥）
@@ -31,11 +39,16 @@
 	
 	//3）、传输数据（过桥）
 	//insert语句
-	$sqlstr = "insert into goodsInfo values('".$goodsId."','".$goodsName."','".$goodsType."'
+	$sqlstr = "insert into goodsInfo values(
+	'".$goodsId."','".$goodsName."','".$goodsType."'
 	,'".$goodsPrice."','".$goodsCount."','".$goodsDesc."','".$goodsImg."'
 	,'".$beiyong1."','".$beiyong2."','".$beiyong3."','".$beiyong4."'
 	,'".$beiyong5."','".$beiyong6."','".$beiyong7."','".$beiyong8."'
-	,'".$beiyong9."','".$beiyong10."','".$beiyong11."','".$beiyong12."','".$beiyong13."')";
+	,'".$beiyong9."','".$beiyong10."','".$beiyong11."','".$beiyong12."','".$beiyong13."'
+	,'".$beiyong14."','".$beiyong15."','".$beiyong16."','".$beiyong17."','".$beiyong18."'
+	,'".$beiyong19."','".$beiyong20."'
+	
+	)";
 	//echo($sqlstr);
 	
 	mysql_query($sqlstr,$conn);

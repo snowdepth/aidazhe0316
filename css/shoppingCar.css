@@ -22,7 +22,7 @@ a {
   color: #333; }
 
 #topbar {
-  width: 100%;
+  width: 1240px;
   height: 30px;
   line-height: 30px;
   background: #f6f6f6;
@@ -133,19 +133,38 @@ a {
 #car {
   width: 1240px;
   margin: 0 auto;
-  min-height: 200px; }
-  #car #list {
+  min-height: 200px;
+  position: relative; }
+  #car .noGoods img {
+    margin: 20px 0;
+    width: 1240px;
+    height: 205px;
+    display: block; }
+  #car .noGoods a {
+    padding: 15px 40px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background: #FF0000;
+    border-radius: 4px;
+    position: absolute;
+    top: 110px;
+    right: 450px; }
+  #car .goods #list {
     margin: 20px auto;
     width: 1200px;
     min-height: 100px;
-    border: 1px solid #000000; }
-  #car #btn {
+    border: 1px solid #000000;
+    display: none; }
+  #car .goods #btn {
     padding: 10px 20px;
     background: #FF0000;
     color: #FFFFFF;
+    border: none;
     position: relative;
     top: 20px;
-    left: 550px; }
+    left: 550px;
+    display: none; }
 
 #info-guess {
   width: 1200px;
@@ -196,6 +215,7 @@ a {
   border-top: #ff464e solid 4px; }
   #footer .footer-top {
     width: 1100px;
+    margin: 0 auto;
     height: 146px;
     padding-top: 25px; }
     #footer .footer-top div {

@@ -25,7 +25,7 @@ a{
 }
 //顶部注册等
 #topbar{   
-    width: 100%;
+    width: 1240px;
     height: 30px;
     line-height: 30px;
     background: #f6f6f6;
@@ -154,8 +154,7 @@ a{
     }       
     .right-area{
         float: right;
-        img{
-            
+        img{            
             position: absolute;
             right: 40px;
             top: 40px;          
@@ -168,20 +167,47 @@ a{
     width: 1240px;
     margin: 0 auto;
     min-height: 200px;
-   #list{
-       margin: 20px auto;
-       width: 1200px;
-       min-height:100px;
-       border: 1px solid #000000;       
-   }
-   #btn{
-       padding: 10px 20px;
-       background: #FF0000;
-       color: #FFFFFF;
-       position: relative;
-       top: 20px;
-       left: 550px;
-   }
+    position: relative;
+    .noGoods{
+        
+        img{
+            margin: 20px 0;
+            width: 1240px;
+            height: 205px;
+            display: block;
+        }
+        a{
+            padding: 15px 40px;
+            font-size: 20px;
+            color: #FFFFFF;
+            font-weight: bold;
+            background: #FF0000;
+            border-radius: 4px;
+            position: absolute;
+            top: 110px;
+            right: 450px;
+        }
+    }
+    .goods{
+        #list{
+               margin: 20px auto;
+               width: 1200px;
+               min-height:100px;
+               border: 1px solid #000000; 
+               display: none;      
+           }
+       #btn{
+           padding: 10px 20px;
+           background: #FF0000;
+           color: #FFFFFF;
+           border: none;
+           position: relative;
+           top: 20px;
+           left: 550px;
+           display: none;
+       }
+    }
+   
 }
 
 #info-guess{    
@@ -242,6 +268,7 @@ a{
     border-top: #ff464e solid 4px;    
     .footer-top{  
         width: 1100px;
+        margin: 0 auto;
         height: 146px;
         padding-top: 25px;      
         div{

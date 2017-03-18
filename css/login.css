@@ -23,7 +23,8 @@ a {
   color: #333; }
 
 #header {
-  width: 100%;
+  width: 1240px;
+  margin: 0 auto;
   background: #FFFFFF;
   height: 80px;
   border-bottom: 4px solid #FF0000; }
